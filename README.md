@@ -1,24 +1,20 @@
-# Pokemon-Game
-Pokemon Game
-This Python script simulates a Pokémon battle between two trainers and their chosen Pokémon. Here’s a breakdown of how it works:
+Pokemon Battle Simulator
 
-Classes Defined:
-Trainer Class: Represents a Pokémon trainer with a name.
+This project simulates Pokemon battles using Python classes. It includes implementations for Pokemon, Moves, and a Trainer class to engage in battles with wild Pokemon.
 
-Pokemon Class: Represents a Pokémon with attributes including name, health, and a list of attacks. The choose_attack method allows a Pokémon to select an attack from its list.
+The game revolves around three primary classes:
+Pokemon: This class represents a Pokemon with its stats, moves, and methods for attacking, taking damage, gaining experience, and accessing stats.
 
-Functions Defined:
-battle(player1, player2): Simulates a two-round battle between two Pokémon. Each round consists of both Pokémon selecting attacks, calculating damage based on chosen attacks, and reducing opponent health accordingly. The battle concludes with a winner or a tie if both Pokémon have the same remaining health after two rounds.
-Pokémon and Attacks Defined:
+Move: Defines a move that a Pokemon can use, including details like power, accuracy, category, and any special effects it might inflict.
 
-Defined instances of Pokémon (Pikachu, Charizard, Staryu, Psyduck) with their respective attributes including health and attacks.
-Gameplay Flow:
+Trainer: Represents a trainer who has a team of Pokemon and can engage in battles with them.
 
-Trainer Selection: Players choose their trainers (Ash or Misty) via user input.
-Pokémon Selection: Players choose their Pokémon (Pikachu or Charizard for player 1, Staryu or Psyduck for player 2) via user input.
-Battle Initiation: Starts the battle between the selected Pokémon of player 1 and player 2.
-How to Run:
-
-Run the script.
-Follow prompts to select trainers and Pokémon for both players.
-Observe the battle simulation output, which shows each round’s actions and the final outcome.
+Usage
+The program begins by encountering a wild Pokemon randomly chosen from a predefined list.
+Ash (the Trainer) selects one of his Pokemon to battle with.
+Moves for the selected Pokemon are displayed, and Ash chooses a move to attack the wild Pokemon.
+The wild Pokemon then attacks back.
+The battle continues until either the wild Pokemon or Ash's Pokemon faints.
+If Ash defeats the wild Pokemon, he has a chance to catch it based on a random catch rate.
+After the battle, the program proceeds to the next encounter with a different wild Pokemon.
+This process repeats for two encounters.
