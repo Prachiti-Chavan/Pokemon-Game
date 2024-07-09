@@ -23,6 +23,8 @@ E-commerce Data Analysis
 
 This analysis provides insights into various aspects of your Amazon sales data, helping you understand customer behavior, product performance, and promotional impact.
 
+Dataset taken from kaggle = E-Commerce Sales Dataset by THE DEVASTATOR
+
 1. Sales Performance Over Time:
 Analyzed monthly sales trends using a line chart. This helps identify peak sales months and potential seasonality.
 
